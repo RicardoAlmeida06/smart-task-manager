@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Task Manager</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Task Manager</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="O que precisa ser feito?">
+            <button onclick="addTask()">Adicionar</button>
+        </div>
+
+        <h3>Atividades Pendentes</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th style="width: 120px;">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTableBody"></tbody>
+            </table>
+        <h3>Atividades Concluídas ✅</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th style="width: 150px;">Data de Conclusão</th>
+                        <th style="width: 80px;">Ações</th> </tr>
+                </thead>
+                <tbody id="completedTableBody"></tbody>
+            </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
