@@ -27,3 +27,7 @@ O **Smart Task Manager** é uma aplicação robusta de gerenciamento de tarefas 
    git clone [https://github.com/RicardoAlmeida06/smart-task-manager.git](https://github.com/RicardoAlmeida06/smart-task-manager.git)
    
 2. Abra o arquivo index.html em seu navegador preferido.
+
+
+## 🖼️ Imagem do Projeto
+<img width="1440" height="766" alt="{C33DCAA9-71DC-449D-A56F-B39E97850A95}" src="https://github.com/user-attachments/assets/f90baa49-d565-4903-970d-eaf7d89a95a0" />
